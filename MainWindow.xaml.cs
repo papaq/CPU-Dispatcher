@@ -215,7 +215,7 @@ namespace CpuDispatcher
             CreateTask();
             ExecuteTask();
             _currentTime += _tick;
-
+            
             UpdateWaitOption();
             FIllInfo();
             listView.Items.Refresh();
