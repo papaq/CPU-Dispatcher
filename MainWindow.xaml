@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CpuDispatcher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="535.526" Width="859.211" MinWidth="860" MinHeight="536">
+        Title="Tick" Height="535.526" Width="859.211" MinWidth="860" MinHeight="536" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -20,8 +20,8 @@
         <Label x:Name="label1" Content="Appear frequency (ms)" Grid.Column="1" Height="38" Margin="0,185,0,0" VerticalAlignment="Top" FontSize="21.333" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" Foreground="Black" IsHitTestVisible="True" Focusable="True"/>
         <TextBox x:Name="textBoxFreqFrom" Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="49,225,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="70" FontSize="20" TextChanged="textBoxFreqFrom_TextChanged" AllowDrop="False" IsHitTestVisible="True"/>
         <TextBox x:Name="textBoxFreqTo" Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="145,225,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="70" FontSize="20" TextChanged="textBoxFreqTo_TextChanged" AllowDrop="False" IsHitTestVisible="True"/>
-        <Button x:Name="buttonStart" Content="Start" Grid.Column="1" HorizontalAlignment="Left" Height="51" Margin="49,285,0,0" VerticalAlignment="Top" Width="167" FontSize="24" Background="White" Click="buttonStart_Click" IsTabStop="False" Panel.ZIndex="1"/>
-        <Button x:Name="buttonTick" Content="Пуньк" Grid.Column="1" HorizontalAlignment="Left" Height="51" Margin="49,285,0,0" VerticalAlignment="Top" Width="167" FontSize="24" Background="White" Click="buttonTick_Click" IsHitTestVisible="True" AllowDrop="True" IsTabStop="False"/>
+        <Button x:Name="buttonStart" Content="Start" Grid.Column="1" HorizontalAlignment="Left" Height="51" Margin="49,285,0,0" VerticalAlignment="Top" Width="84" FontSize="24" Background="White" Click="buttonStart_Click" IsTabStop="False" Panel.ZIndex="1"/>
+        <Button x:Name="buttonTick" Content="Пуньк" Grid.Column="1" HorizontalAlignment="Left" Height="51" Margin="49,285,0,0" VerticalAlignment="Top" Width="84" FontSize="24" Background="White" Click="buttonTick_Click" IsHitTestVisible="True" AllowDrop="True" IsTabStop="False"/>
         <ListView x:Name="listView" Margin="20" Foreground="Black" BorderBrush="Black" IsHitTestVisible="True" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
             <ListView.View>
                 <GridView AllowsColumnReorder="False">
@@ -64,6 +64,7 @@
         <Label x:Name="labelTicks" Content="0" Grid.Column="1" Height="29" Margin="165,405,0,0" VerticalAlignment="Top" FontSize="21.333" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" Foreground="Black" IsHitTestVisible="False" Padding="5,0" HorizontalAlignment="Left"/>
         <Label x:Name="labelSidle" Content="0" Grid.Column="1" Height="29" Margin="165,435,0,0" VerticalAlignment="Top" FontSize="21.333" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" Foreground="Black" IsHitTestVisible="False" Padding="5,0" HorizontalAlignment="Left"/>
         <TextBox x:Name="textBoxAvWait" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="168,465,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="21.333" MaxLines="1" MaxLength="5" IsUndoEnabled="False" IsReadOnly="True" BorderBrush="{x:Null}" BorderThickness="0" AllowDrop="False" IsHitTestVisible="False" Focusable="False" IsTabStop="False"/>
+        <Button x:Name="buttonTest" Content="Test" Grid.Column="1" HorizontalAlignment="Left" Height="51" Margin="161,285,0,0" VerticalAlignment="Top" Width="54" FontSize="24" Background="White" IsTabStop="False" Panel.ZIndex="1" Click="buttonTest_Click"/>
 
     </Grid>
 </Window>

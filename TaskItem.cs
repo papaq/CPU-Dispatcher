@@ -1,6 +1,6 @@
 namespace CpuDispatcher
 {
-    internal class TaskItem
+    public class TaskItem
     {
         public int Index { get; set; }
 

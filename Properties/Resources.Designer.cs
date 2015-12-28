@@ -63,6 +63,15 @@ namespace CpuDispatcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _01_the_screaming_sheep {
+            get {
+                return ResourceManager.GetStream("_01_the_screaming_sheep", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream _201741 {
             get {
                 return ResourceManager.GetStream("_201741", resourceCulture);
