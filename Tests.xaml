@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CpuDispatcher"
         mc:Ignorable="d"
-        Title="Tests" Height="369.925" Width="594.361" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Tests" Height="370" Width="595" WindowStartupLocation="CenterScreen" MinWidth="595" MinHeight="370">
     <Grid Margin="0,0,10,20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -83,7 +83,7 @@
             </Grid.RowDefinitions>
             <Label x:Name="label6" Content="50" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Bottom" Padding="5,0"/>
             <Label x:Name="label1_Copy10" Content="250" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Grid.Row="1" Padding="5,0"/>
-            <Label x:Name="label1_Copy11" Content="900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
+            <Label x:Name="label1_Copy11" Content="1-900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
         </Grid>
         <Grid Grid.Row="4" Grid.Column="1" Margin="0,1,0,0">
             <Grid.RowDefinitions>
@@ -103,7 +103,7 @@
             </Grid.RowDefinitions>
             <Label x:Name="label7" Content="1000" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Bottom" Padding="5,0"/>
             <Label x:Name="label1_Copy12" Content="250" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Grid.Row="1" Padding="5,0"/>
-            <Label x:Name="label1_Copy13" Content="900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
+            <Label x:Name="label1_Copy13" Content="1-900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
         </Grid>
         <Grid Grid.Row="4" Grid.Column="2">
             <Grid.RowDefinitions>
@@ -133,7 +133,7 @@
             </Grid.RowDefinitions>
             <Label x:Name="label11" Content="250" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Bottom" Padding="5,0"/>
             <Label x:Name="label1_Copy20" Content="250" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Grid.Row="1" Padding="5,0"/>
-            <Label x:Name="label1_Copy21" Content="900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
+            <Label x:Name="label1_Copy21" Content="1-900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
         </Grid>
         <Grid Grid.Row="2" Grid.Column="3">
             <Grid.RowDefinitions>
@@ -143,7 +143,7 @@
             </Grid.RowDefinitions>
             <Label x:Name="label12" Content="1000" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Bottom" Padding="5,0"/>
             <Label x:Name="label1_Copy22" Content="250" HorizontalAlignment="Left" Margin="30,0,0,0" VerticalAlignment="Center" Grid.Row="1" Padding="5,0"/>
-            <Label x:Name="label1_Copy23" Content="900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
+            <Label x:Name="label1_Copy23" Content="1-900" HorizontalAlignment="Left" Margin="30,0,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="5,0"/>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="2">
             <Grid.RowDefinitions>
@@ -171,7 +171,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Button x:Name="buttonTest1" Content="Test 1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="80" Click="button_Click" BorderBrush="Black" Background="White" FontSize="18.667" Grid.Row="1" Padding="0"/>
-            <Label x:Name="label2_Copy" Content="Average wait time&#xA;depends on intencity" Padding="2,0,0,0"/>
+            <Label x:Name="label2_Copy" Content="Average wait time&#xA;depends on intencity" Padding="2,0,0,0" HorizontalAlignment="Center"/>
         </Grid>
         <Grid Grid.Column="4" Grid.Row="2">
             <Grid.RowDefinitions>
@@ -195,7 +195,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Button x:Name="buttonTest3_Copy" Content="Test 3" HorizontalAlignment="Center" VerticalAlignment="Top" Width="80" Click="buttonTest3_Click" Grid.Row="1" BorderBrush="Black" Background="White" FontSize="18.667"/>
-            <Label x:Name="label2_Copy4" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Tasks waiting depend&#xD;&#xA;on average wait time" Padding="2,0,0,0" Margin="0"/>
+            <Label x:Name="label2_Copy4" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Tasks waiting depend&#xD;&#xA;on average wait time" Padding="2,0,0,0" Margin="0"/>
         </Grid>
 
     </Grid>
